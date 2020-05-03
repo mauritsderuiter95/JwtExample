@@ -7,9 +7,10 @@ Warning: This is very basic and doesn't do things like hashing passwords! Only t
 To test this, you need to have Dotnet Core 3 and MongoDB installed. Settings are in appsettings.json.
 
 This uses the following packages:
-[MongoDB.Driver](https://www.nuget.org/packages/MongoDB.Driver/2.10.3)
-[Microsoft.AspNetCore.Authentication.JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
-[JWT](https://www.nuget.org/packages/JWT)
+
+-   [MongoDB.Driver](https://www.nuget.org/packages/MongoDB.Driver/2.10.3)
+-   [Microsoft.AspNetCore.Authentication.JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer)
+-   [JWT](https://www.nuget.org/packages/JWT)
 
 After restoring the packages and starting it, do the following to test the JWT:
 
